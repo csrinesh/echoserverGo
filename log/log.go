@@ -43,13 +43,20 @@ func init() {
 }
 
 
+<<<<<<< HEAD
 // NewLogger returns a configured logrus instance
 func NewLogger(cfg config.Provider) *logrus.Logger {
 	return newLogrusLogger(cfg)
+=======
+// NewLogger returns logrus instance
+func NewLogger() *logrus.Logger {
+	return newLogrusLogger()
+>>>>>>> 7e6a4817615ef45de64aafc571b2cdfafbe7061f
 }
 
 
 
+<<<<<<< HEAD
 func newLogrusLogger(cfg config.Provider) *logrus.Logger {
 
 	l := logrus.New()
@@ -70,6 +77,12 @@ func newLogrusLogger(cfg config.Provider) *logrus.Logger {
 		l.Level = logrus.DebugLevel
 	}
 	
+=======
+func newLogrusLogger() *logrus.Logger {
+
+	l := logrus.New()
+	
+>>>>>>> 7e6a4817615ef45de64aafc571b2cdfafbe7061f
 	return l
 }
 

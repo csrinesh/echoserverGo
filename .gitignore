@@ -1,3 +1,7 @@
 bin
+<<<<<<< HEAD
 vendor
 env
+=======
+vendor
+>>>>>>> 7e6a4817615ef45de64aafc571b2cdfafbe7061f

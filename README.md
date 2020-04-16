@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # echoserverGo
 
 Go Sandbox
+=======
+# myProject
+
+Golang Sandbox for learning 
+>>>>>>> 7e6a4817615ef45de64aafc571b2cdfafbe7061f
 
 ## Getting started
 
@@ -10,7 +16,11 @@ Running it then should be as simple as:
 
 ```console
 $ make
+<<<<<<< HEAD
 $ ./bin/echoserverGo
+=======
+$ ./bin/myProject
+>>>>>>> 7e6a4817615ef45de64aafc571b2cdfafbe7061f
 ```
 
 ### Testing
