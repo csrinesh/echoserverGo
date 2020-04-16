@@ -50,9 +50,11 @@ func main() {
 	_ = xys
 
 	err = plotData("out.png", xys)
+
 	if err != nil {
 		log.Fatalf("Could not plot the graph %v", err)
 	}
+	fmt.Printf("Yaay! Succesfully completed ...\n")
 }
 
 func plotData(path string, xys plotter.XYs) error {
